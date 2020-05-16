@@ -5,6 +5,145 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="?attr/actionBarSize">
+    <ScrollView
+        android:layout_above="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10dp"
+                android:text=""
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10dp"
+                android:text=""
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10dp"
+                android:text=""
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10dp"
+                android:text=""
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10dp"
+                android:text=""
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10dp"
+                android:text=""
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10dp"
+                android:text=""
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10dp"
+                android:text=""
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/logoHarita"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/magazine_last" />
+
+
+            <Button
+                android:id="@+id/sonSayiDergi"
+                style="@style/btnStyleSeagull"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:text="SON"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/eDergiler"
+                style="@style/btnStyleSeagull"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:text="DERGİLER"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/ozelSayilar"
+                style="@style/btnStyleSeagull"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:text="SAYILAR"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/makaleSorgulama"
+                style="@style/btnStyleSeagull"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:text="SORGULAMA"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/dergiYonetimKurulu"
+                style="@style/btnStyleSeagull"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:text="KURULU"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/dergiBilimKurulu"
+                style="@style/btnStyleSeagull"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:text="KURULU"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/makaleYazımEsasları"
+                style="@style/btnStyleSeagull"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:text="MAKALE YAZIM ESASLARI"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
